@@ -1,0 +1,4 @@
+GNUKhata
+========
+
+FOSS Accounting sofware
