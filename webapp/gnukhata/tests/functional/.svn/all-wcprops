@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/542/gnukhata-webapp/gnukhata/tests/functional
+END
+test_receipt.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/508/gnukhata-webapp/gnukhata/tests/functional/test_receipt.py
+END
+test_account.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/465/gnukhata-webapp/gnukhata/tests/functional/test_account.py
+END
+test_tax.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/502/gnukhata-webapp/gnukhata/tests/functional/test_tax.py
+END
+test_vendor.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/461/gnukhata-webapp/gnukhata/tests/functional/test_vendor.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/444/gnukhata-webapp/gnukhata/tests/functional/__init__.py
+END
+test_customer.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/461/gnukhata-webapp/gnukhata/tests/functional/test_customer.py
+END
+test_createuser.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/470/gnukhata-webapp/gnukhata/tests/functional/test_createuser.py
+END
+test_sales.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/505/gnukhata-webapp/gnukhata/tests/functional/test_sales.py
+END
+test_customization.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/542/gnukhata-webapp/gnukhata/tests/functional/test_customization.py
+END
+test_purchase.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/505/gnukhata-webapp/gnukhata/tests/functional/test_purchase.py
+END
+test_journal.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/508/gnukhata-webapp/gnukhata/tests/functional/test_journal.py
+END
+test_credit.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/508/gnukhata-webapp/gnukhata/tests/functional/test_credit.py
+END
+test_payment.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/508/gnukhata-webapp/gnukhata/tests/functional/test_payment.py
+END
+test_category.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/444/gnukhata-webapp/gnukhata/tests/functional/test_category.py
+END
+test_product.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/462/gnukhata-webapp/gnukhata/tests/functional/test_product.py
+END
+test_people.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/542/gnukhata-webapp/gnukhata/tests/functional/test_people.py
+END
+test_contra.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/505/gnukhata-webapp/gnukhata/tests/functional/test_contra.py
+END
+test_debit.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/508/gnukhata-webapp/gnukhata/tests/functional/test_debit.py
+END

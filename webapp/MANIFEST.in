@@ -1,0 +1,3 @@
+include gnukhata/config/deployment.ini_tmpl
+recursive-include gnukhata/public *
+recursive-include gnukhata/templates *

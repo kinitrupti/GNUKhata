@@ -1,0 +1,3 @@
+this is a file for instructions on tests.
+The tests could be run using nosetest or trial.
+nosetest and trial are 2 test suitsout of which trial is for twisted library. 

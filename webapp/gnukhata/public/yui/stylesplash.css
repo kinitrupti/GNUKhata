@@ -1,0 +1,20 @@
+#hd{height: 100px; background: #999; margin: 0 0 5px 0;}
+#bd{}
+#ft{height: 50px; background: #ccc;}
+
+h1, h2, h3, h4, h5, h6, strong, b{font-weight: bold;}
+h1{font-size: 197%;}
+h2{font-size: 167%;}
+h3{font-size: 138.5%;}
+h4{font-size: 123.1%;}
+h5{font-size: 93%;}
+h6{font-size: 77%;}
+em{font-style: italic;}
+p{margin:10px 50px 0px 0px;}
+
+#hd h1{color: #fff;}
+
+.ad1, .ad2, .ad3{margin: 120px 0 0 450px;}
+.ad1{width: 300px; height: 200px;}
+.ad2{width: 145px; height: 145px;}
+.ad3{width: 95px; height: 95px;}

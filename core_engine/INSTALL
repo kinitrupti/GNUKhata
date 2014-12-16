@@ -1,0 +1,114 @@
+Installation Instructions
+*************************
+
+Copyright (C)  2007, 2008, 2009
+Comet Media Foundation.
+
+
+
+This file is free documentation; Comet Media Foundation gives
+unlimited permission to copy, distribute and modify it.
+Under the terms of GNU General Public License published by the Free Software Foundation, either version 3 or any later version at your choice.
+
+*WARNING*
+
+Comet Media Foundation or the author of this document disclaims all warranties including but not limited the implied warrenty of merchantability and fitness for a particular purpose.
+FOLLOW THE INSTRUCTIONS AT YOUR OWN RISK!
+NOTE:
+These set of instructions are meant for those who download the source and run it directly.
+The actual setup script will perform all the given activities for an end user using GNUKhata for production.
+
+Basic Installation
+==================
+Gnukhata depends on the following components and they should be installed for the software to be functional.
+For the Core engine:
+	*postgresql for the database, version 8.4 or 9X, 9 series highly recommended
+	*sqlite3 needed for suplimentary data 
+	* Python, version 2.5 or 2.6, version 2.7 Highly recommended for stability 
+	*python-psycopg2 for the database connectivity and interfacing between python and postgresql.
+	*python-twisted for the xmlrpc service
+For the client application 
+
+
+For checkout of source code:
+*mercurial for getting (pulling ) the code and committing changes.
+
+
+First install the dependencies for compiling psycopg2, twisted and sqlalchemy library.  
+You will also need to install the dependencies for compiling nginx web server for production use.
+On a sudo based distro of GNULinux such as Ubuntu, use the command given below.
+sudo apt-get install -y --force-yes  libpcre3 libpcre3-dev libpq5 libpq-dev
+you can use yum install as a super user on an rpm based Distro such as Centos, Redhat or Fedora.
+
+Once the dependencies are sorted out,  download and compile python version 2.6 or 2.7.
+NOTE: AS MENTIONED ABOVE IN DEPENDENCIES, PYTHON 2.7 MUST BE USED FOR STABILITY and SECURITY!
+
+go to www.python.org and from the download section get the source tarball for python 2.7
+extract the content of the tarball and then cd to the python-2.7 directory. 
+now, issue the following 3 commands exactly as given.
+./configure --prefix=/opt/gnukhata
+make
+sudo make install
+
+This process will takesome time so be patient.
+
+if Python version 2.7 is the default on your system, just change the #bang in the gkstart file from the core_engine directory.
+the first line in gkstart looks like this by default 
+#!/usr/bin/python27
+change it to #!/usr/bin/python if version 2.7 is on your machine by default.
+
+if you install python 2.7 with the given process, make a symlink in /user/bin as follows.
+sudo ln -s /opt/gnukhata/bin/python /usr/bin/python27
+
+
+once this has completed download the source code for postgresql.
+We highly recommend version 9 or above for better performance and security.
+go to www.postgresql.org and download the source tarball.
+
+follow the same process with postgresql as you did with python compilation with one exception 
+in this case your ./configure should look like as follows.
+./configure --prefix=/opt/gnukhata --without-readline
+
+as you must have understood you will issue make and sudo make install after ./configure.
+
+ 
+
+after the install process completes, initialise the data folder for holding all databases.
+for this follow the below given instructions exactly as you see.
+note that every command is on a single line so you will have to press enter for every command.
+
+sudo mkdir /opt/gnukhata/data
+sudo useradd postgres
+sudo chown postgres  /opt/gnukhata/data
+sudo su postgres
+/opt/gnukhata/bin/initdb -D /opt/gnukhata/data
+exit
+
+Now create a symlink to postgres server and createdb command.
+
+sudo ln -s /opt/gnukhata/bin/postgres /usr/bin/postgres
+please remove postgres from usr/bin if you had a previous installation of the same.
+for this issue sudo rm /user/bin/postgres
+do the same for createdb
+sudo ln -s /opt/gnukhata/bin/createdb /usr/bin/createdb
+
+
+now create the gnukhata user in postgres
+
+for this we have to start the postgres server
+type sudo su -c "postgres -D /opt/gnukhata/data & " postgres and hit enter
+hit enter again to get the prompt back.
+now for creating a user you have to run the psql client.
+
+for this type /opt/gnukhata/bin/psql -U postgres template1
+on the template one prompt type create user gnukhata with password 'gnukhata'; and type enter
+now enter grant all privileges on database template1 to gnukhata; and hit enter.
+
+type \q and hit enter
+congratulations!
+GNUKhata server is ready to be used.
+to start GNUKhata type sudo ./gkstart from the core_engine directory.
+Note that every time you start gnukhata core engine, you will first have to start the postgres server.
+ 
+as mentioned before type sudo su -c "postgres -D /opt/gnukhata/data & " postgres and hit enter.
+

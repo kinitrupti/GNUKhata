@@ -1,0 +1,90 @@
+Starting server in PID 9302.
+serving on http://127.0.0.1:8080
+[]
+[[1, 'Spoken Tutorial']]
+[[1, 'Spoken Tutorial'], [2, 'Spoken Tutorial']]
+UnicodeMultiDict([('groupname', u'Current Asset'), ('subgroupname', u'Bank'), ('newSub', u''), ('accountname', u'Sbi'), ('suggest_acc_code', u'CAS100'), ('openingbalance', u'5000'), ('save', u'Save'), ('acc_code', u'manually'), ('accountcode_suggestion', u'CA'), ('has_subgroup', u'[object Object]')])
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+UnicodeMultiDict([('acc_code', u'manually'), ('accountcode_suggestion', u'DE'), ('listcode', u''), ('groupname', u'Direct Expense'), ('subgroupname', u'Create New Sub-Group'), ('newSub', u'Salary'), ('accountname', u'Salary For Employees'), ('suggest_acc_code', u'DES100'), ('openingbalance', u'0.00'), ('save', u'Save'), ('has_subgroup', u'[object Object]')])
+00:03:46,971 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (6 working, 4 idle, 0 starting) ave time 0.00sec, max time 0.01sec, killed 0 workers
+Debug at: http://localhost:8080/_debug/view/1375814168
+we are in edit account 
+UnicodeMultiDict([('searchacc_by', u'Account Name'), ('account_name', u'Salary For Employees'), ('accountcode_search', u''), ('accountname', u'Salary For Staffs'), ('groupname', u'Direct Expense'), ('subgroupname', u'Salary'), ('account_code', u'DES100'), ('Balance', u''), ('oldacc_name', u'Salary For Employees'), ('Openingbalance', u'0'), ('array', u''), ('acccode', u'manually')])
+Salary For Staffs
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+[]
+UnicodeMultiDict([('groupname', u'Current Asset'), ('subgroupname', u'Bank'), ('newSub', u''), ('accountname', u'Sbi'), ('suggest_acc_code', u'CAS100'), ('openingbalance', u'5000'), ('save', u'Save'), ('acc_code', u'manually'), ('accountcode_suggestion', u'CA'), ('has_subgroup', u'[object Object]')])
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+00:34:27,718 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+UnicodeMultiDict([('acc_code', u'manually'), ('accountcode_suggestion', u'DE'), ('listcode', u''), ('groupname', u'Direct Expense'), ('subgroupname', u'Create New Sub-Group'), ('newSub', u'Salary'), ('accountname', u'Salary For Employees'), ('suggest_acc_code', u'DES100'), ('openingbalance', u'0.00'), ('save', u'Save'), ('has_subgroup', u'[object Object]')])
+Debug at: http://localhost:8080/_debug/view/1375814169
+we are in edit account 
+UnicodeMultiDict([('searchacc_by', u'Account Name'), ('account_name', u'Salary For Employees'), ('accountcode_search', u''), ('accountname', u'Salary For Staffs'), ('groupname', u'Direct Expense'), ('subgroupname', u'Salary'), ('account_code', u'DES100'), ('Balance', u''), ('oldacc_name', u'Salary For Employees'), ('Openingbalance', u'0'), ('array', u''), ('acccode', u'manually')])
+Salary For Employees
+UnicodeMultiDict([])
+Debug at: http://localhost:8080/_debug/view/1375814170
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+00:51:48,573 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (2 working, 8 idle, 0 starting) ave time 0.00sec, max time 0.00sec, killed 0 workers
+Please Choose Account Name
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+Salary For Staffs
+Debug at: http://localhost:8080/_debug/view/1375814171
+we are in edit account 
+UnicodeMultiDict([('searchacc_by', u'Account Name'), ('account_name', u'Sbi'), ('accountcode_search', u''), ('accountname', u'Sbi'), ('openingbalance', u'0'), ('groupname', u'Current Asset'), ('subgroupname', u'Bank'), ('account_code', u'CAS100'), ('Balance', u''), ('oldacc_name', u'Sbi'), ('Openingbalance', u'5000'), ('array', u''), ('acccode', u'manually')])
+Sbi
+Starting server in PID 4613.
+serving on http://127.0.0.1:8080
+[]
+UnicodeMultiDict([('groupname', u'Current Asset'), ('subgroupname', u'Bank'), ('newSub', u''), ('accountname', u'Salary'), ('suggest_acc_code', u'CAS100'), ('openingbalance', u'90'), ('save', u'Save'), ('acc_code', u'manually'), ('accountcode_suggestion', u'CA'), ('has_subgroup', u'[object Object]')])
+[[1, 'Pnl', 'Profit Making', '', 'Please Select City', '', 'Please Select state', 'India', '', '', '', '', '', '', '', '', '', '', '']]
+Starting server in PID 29899.
+Traceback (most recent call last):
+  File "/usr/local/bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.4.2', 'console_scripts', 'paster')()
+  File "/usr/local/lib/python2.7/dist-packages/PasteScript-1.7.4.2-py2.7.egg/paste/script/command.py", line 104, in run
+    invoke(command, command_name, options, args[1:])
+  File "/usr/local/lib/python2.7/dist-packages/PasteScript-1.7.4.2-py2.7.egg/paste/script/command.py", line 143, in invoke
+    exit_code = runner.run(args)
+  File "/usr/local/lib/python2.7/dist-packages/PasteScript-1.7.4.2-py2.7.egg/paste/script/command.py", line 238, in run
+    result = self.command()
+  File "/usr/local/lib/python2.7/dist-packages/PasteScript-1.7.4.2-py2.7.egg/paste/script/serve.py", line 311, in command
+    serve()
+  File "/usr/local/lib/python2.7/dist-packages/PasteScript-1.7.4.2-py2.7.egg/paste/script/serve.py", line 295, in serve
+    server(app)
+  File "/usr/local/lib/python2.7/dist-packages/PasteDeploy-1.5.0-py2.7.egg/paste/deploy/loadwsgi.py", line 189, in server_wrapper
+    **context.local_conf)
+  File "/usr/local/lib/python2.7/dist-packages/PasteDeploy-1.5.0-py2.7.egg/paste/deploy/util.py", line 56, in fix_call
+    val = callable(*args, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/Paste-1.7.5.1-py2.7.egg/paste/httpserver.py", line 1342, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Paste-1.7.5.1-py2.7.egg/paste/httpserver.py", line 1291, in serve
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/Paste-1.7.5.1-py2.7.egg/paste/httpserver.py", line 1134, in __init__
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/Paste-1.7.5.1-py2.7.egg/paste/httpserver.py", line 1113, in __init__
+    request_queue_size=request_queue_size)
+  File "/usr/local/lib/python2.7/dist-packages/Paste-1.7.5.1-py2.7.egg/paste/httpserver.py", line 360, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/lib/python2.7/SocketServer.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Removing PID file paster.pid
+Starting server in PID 29989.
+serving on http://127.0.0.1:8080
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+[[1, 'Free Accounting Foundation', 'NGO', '', 'Please Select City', '', 'Maharashtra', 'India', '', '', '', '', '', '', '', '', '--', '', '--']]
+UnicodeMultiDict([('acc_code', u'manually'), ('accountcode_suggestion', u'CA'), ('listcode', u''), ('groupname', u'Current Asset'), ('subgroupname', u'Bank'), ('newSub', u''), ('accountname', u'Bank'), ('suggest_acc_code', u'CAB100'), ('openingbalance', u'900'), ('save', u'Save'), ('has_subgroup', u'[object Object]')])
+16:09:21,166 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+UnicodeMultiDict([('acc_code', u'manually'), ('accountcode_suggestion', u'CA'), ('listcode', u''), ('groupname', u'Current Asset'), ('subgroupname', u'Cash'), ('newSub', u''), ('accountname', u'Cash'), ('suggest_acc_code', u'CAC100'), ('openingbalance', u'900'), ('save', u'Save'), ('has_subgroup', u'[object Object]')])
+['01', '2013-08-28', '2011-04-01', u'Contra', u'Spoken Tutorial', u'Ok\r\n', '', None, 0.0]
+Dr
+Cr

@@ -1,0 +1,17 @@
+This is gnukhata version 1
+information on the installation will be available in the install file.
+the license terms will be in the copying file.
+
+
+GNUKhata is a Free accounting software aimed to be modular, robust, scalable and customisable.
+
+The System uses a postgresql database server and totally coded in python with ui in PYGTK and the core logic implemented as xmlrpc service through the twisted library.
+What this implies is that GNUKhata is made available as a middle layer service and any front end whether desktop based or web based can be built as a thin client.
+
+GNUKhata is in its very early stage of development and has tuns of bugs.
+currently we are actively working on a web front end which is expected to be the first stable client application.
+We recommend only testers and developres use the software in its current stage.
+see the INSTALL file for details on dependencies and installation instructions.
+
+for more details visit the wiki at http://gnukhata.gnulinux.in
+

@@ -1,0 +1,29 @@
+.dated, .datem {
+	 width: 35px;
+}
+.datey{	 width: 60px;}
+.readonly{
+	background-color: #FFFFFF;
+    border: 2px solid;
+    padding: 5px;
+    direction: rtl;
+ /* width: 100%; */
+}
+select{ padding: 5px;width: 250px; }
+input{ padding: 5px; }
+#cr_dr1{width: 60px;}
+#cr_dr2{width: 60px;}
+#cr_dr3{width: 60px;}
+#cr_dr4{width: 60px;}
+#cr_dr5{width: 60px;}
+#cr_dr6{width: 60px;}
+#cr_dr7{width: 60px;}
+#cr_dr8{width: 60px;}
+#cr_dr9{width: 60px;}
+#cr_dr10{width: 60px;}
+#cr_dr11{width: 60px;}
+#cr_dr12{width: 60px;}
+#cr_dr13{width: 60px;}
+#cr_dr14{width: 60px;}
+#cr_dr15{width: 60px;}
+#cr_dr16{width: 60px;}

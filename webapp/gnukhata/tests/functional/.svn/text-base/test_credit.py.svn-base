@@ -1,0 +1,7 @@
+from gnukhata.tests import *
+
+class TestCreditController(TestController):
+
+    def test_index(self):
+        response = self.app.get(url(controller='credit', action='index'))
+        # Test response...

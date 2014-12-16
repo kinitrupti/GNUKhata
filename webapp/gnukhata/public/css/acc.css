@@ -1,0 +1,7 @@
+.readonly{
+	background-color: #FFFFFF;
+    border: 1px solid;
+    /*padding: 1px;*/
+    direction: rtl;
+  width: 61%; 
+}
